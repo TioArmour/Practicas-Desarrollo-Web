@@ -1,0 +1,44 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex: wrap;
+    width: 70%;
+    height: 80%;
+    background-color: hsl(240, 5%, 91%);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-img{
+    transform: translateX(-20%);
+}
+
+.faq{
+    margin-right: 10%;
+}
+.title{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 15%;
+    
+}
+
+.qa{
+    margin-top: 10px;
+    border-bottom: 1px solid hsl(240, 6%, 50%);
+}
+
